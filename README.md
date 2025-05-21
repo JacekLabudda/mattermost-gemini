@@ -36,6 +36,7 @@ Set the following environment variables:
 
 ## ▶️ Run the Bot
 ```shell
+chmod +x run.sh
 ./run.sh
 ```
 ## 🛠️ Run as a Service (systemd)
@@ -84,6 +85,8 @@ sudo systemctl status gemini.service
 - `run.sh` – Startup script for configuring environment and running the bot
 - `gemini.py` – Bot logic integrating Mattermost with Gemini
 - `requirements.txt` – Python dependencies
+  
+![example of message](example.png)
 
 🤝 Contribute Got ideas or improvements? PRs and issue reports are welcome!
 📜 License MIT - use it freely, just mention me or leave a ⭐ if you like it.
